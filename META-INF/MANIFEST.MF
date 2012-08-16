@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TestingClient
+Bundle-SymbolicName: com.ntelx.TestingClient
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.ntelx.testingclient.Activator
+Bundle-Vendor: NTELX
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Require-Bundle: com.ntelx.hibernate3;bundle-version="1.0.0",
+ NXCommons;bundle-version="1.0.0",
+ com.ntelx.datasourcemodel;bundle-version="1.0.0",
+ com.ntelx.Datasource;bundle-version="1.0.0"
